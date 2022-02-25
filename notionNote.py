@@ -20,7 +20,7 @@ f.close()
 # Prepare
 token = '<input your token>'
 client  = NotionClient(token_v2 = token)
-page = client.get_collection_view("<https://www.notion.so/596dbf25949c4d65aa67cf29187c8c7e>")
+page = client.get_collection_view("https://www.notion.so/596dbf25949c4d65aa67cf29187c8c7e")
 
 
 # Add a new note to table
